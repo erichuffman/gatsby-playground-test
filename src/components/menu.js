@@ -24,10 +24,16 @@ const Menu = () => {
           <Link css={linkStyle} to="/">Home</Link>
         </li>
         <li css={itemStyle}>
-          <Link css={linkStyle} to="/page-2/">Page 2</Link>
+          <Link css={linkStyle} to="/about/">About</Link>
         </li>
         <li css={itemStyle}>
-          <Link css={linkStyle} to="/about/">About</Link>
+          <Link css={linkStyle} to="/articles/">Articles</Link>
+        </li>
+        <li css={itemStyle}>
+          <Link css={linkStyle} to="/gallery/">Gallery</Link>
+        </li>
+        <li css={itemStyle}>
+          <Link css={linkStyle} to="/contact/">Contact</Link>
         </li>
       </ul>
     </nav>
